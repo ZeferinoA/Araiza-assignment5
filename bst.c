@@ -313,7 +313,7 @@ int bst_contains(int val, struct bst* bst) {
  * This is the structure you will use to create an in-order BST iterator.  It
  * is up to you how to define this structure.
  */
-struct bst_iterator;
+struct bst_iterator {
   struct stack* stack;
 };
 
